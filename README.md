@@ -27,3 +27,10 @@ Every Qverify report is published with:
 **Linux/macOS**
 ```bash
 sha3sum -a 512 Qverify_Certification_Report_Cellframe_v1.0.pdf
+
+**Python**
+```python
+import hashlib
+
+with open("Qverify_Certification_Report_Cellframe_v1.0.pdf", "rb") as f:
+    print(hashlib.sha3_512(f.read()).hexdigest())
