@@ -1,8 +1,8 @@
 
----
+
 
 ## **📄 SECURITY.md**
-```markdown
+
 # Security Policy
 
 If you discover a security vulnerability in a certified project or in Qverify's processes, please contact:
