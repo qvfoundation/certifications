@@ -9,6 +9,5 @@ Qverify certifications confirm:
 
 Each certification includes:
 1. **PDF Report** — Full audit details.
-2. **SHA256 Checksum** — For file integrity.
-3. **PGP Signature** — For authenticity.
-4. **Machine-Readable Metadata** — For integrations and verification bots.
+2. **SHA3_512 Checksum** — For file integrity.
+3. **Machine-Readable Metadata** — For integrations and verification bots.
