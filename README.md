@@ -26,11 +26,11 @@ Every Qverify report is published with:
 ### 1. Verify the SHA3-512 Checksum
 **Linux/macOS**
 ```bash
-sha3sum -a 512 Qverify_Certification_Report_Cellframe_v1.0.pdf
+sha3sum -a 512 Qverify_Certification_Report.pdf
 ```
 **Python**
 ```python
 import hashlib
 
-with open("Qverify_Certification_Report_Cellframe_v1.0.pdf", "rb") as f:
+with open("Qverify_Certification_Report.pdf", "rb") as f:
     print(hashlib.sha3_512(f.read()).hexdigest())
