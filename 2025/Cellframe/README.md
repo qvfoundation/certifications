@@ -23,3 +23,4 @@ For verification purposes, the checksum of the main audit report is provided bel
 `Cell_frame_report_v1.pdf`  
 
 **Checksum (SHA3-512):**
+`25a422d1cb902aa8f44ed25a3f68160d27caa61ebaaa594e213025b42bc99ce66e67109a81099b3e05765a4f10a21e3f9e5a1f8a620d6d3a2b114d21ca40159e`
