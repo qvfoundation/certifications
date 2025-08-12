@@ -34,3 +34,8 @@ import hashlib
 
 with open("Qverify_Certification_Report.pdf", "rb") as f:
     print(hashlib.sha3_512(f.read()).hexdigest())
+
+### 2. PGP Signature Verification
+```bash
+gpg --import Qverify-public-key.asc
+gpg --verify signature.asc Qverify_Certification_Report.pdf
