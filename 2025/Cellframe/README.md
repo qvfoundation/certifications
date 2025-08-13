@@ -1,6 +1,7 @@
 # Qverify – Cellframe Audit
 
 This repository contains Qverify's independent audit of the **Cellframe** project, focusing on their post-quantum cryptography implementation and security claims.
+## All suggestions raised in this report have been addressed and implemented prior to the final publication. Please refer to the responses and implementation details in `Cellframe_Response.coffee`.
 
 # Cellframe has been officially approved by Qverify for its implementation of post-quantum security measures, following a comprehensive audit of its cryptographic protocols and security practices
 
